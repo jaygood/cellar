@@ -10,3 +10,5 @@ Set Up:
 2. Execute cellar.sql to create and populate the "wine" table:
 
 	mysql cellar -uroot < cellar.sql
+
+This is my go
