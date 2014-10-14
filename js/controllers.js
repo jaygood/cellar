@@ -36,6 +36,7 @@ function WineDetailCtrl(Wine) {
             this.wine.$update({wineId:this.wine.id});
         else
             this.wine.$save();
+        //TODO: update with new apis
         window.location = "#/wines";
     }
 
